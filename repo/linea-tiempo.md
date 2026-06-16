@@ -21,3 +21,27 @@ Para organizar el proyecto generamos issues en Github y creamos un github proyec
 En el estado actual el tablero del proyecto se ve así:
 
 ![alt text](tablero-00.png)
+
+## FASE 1 - PRE DESARROLLO
+
+En esta fase nos enfocaremos como equipo en crear las 3 fuentes de datos que utilizaremos para el proceso ETL. Estos archivos se componen de:
+
+1) Una base de datos con una tabla con datos sucios, esta tabla tiene las siguientes columnas:
+
+    a.- id_pelicula  
+    b.- titulo_original  
+    c.- reproducciones_mensuales  
+    d.- fecha_estreno_plataforma  
+    e.- servidor_origen  
+
+2) Datos rescatados desde la API mencionada más arriba que nos sirvan para llenar la tabla objetivo en la base de datos
+
+3) Un archivo CSV local con las restricciones de edades para las peliculas
+
+Como todos los archivos tienen que compartir un ID para poder hacer los cruces, lo primero en levantarse tiene que ser los datos en la base de datos para que sirvan de guia los IDs de esa base de datos para la creación de los otros archivos.
+
+### PRIMERA ACTUALIZACIÓN
+
+Se logro llenar la base de datos con 407 registros de peliculas con ids que se pueden encontrar en la API, la vista del tablero en este momento es esta:
+
+![alt text](tablero-01.png)
