@@ -1,0 +1,293 @@
+id_pelicula,clasificacion_chile,advertencia_contenido,bloqueo_horario_infantil
+22,18,Terror psicológico,SI
+38,TE,Ninguna,NO
+98,TE,Ninguna,NO
+120,14,Violencia explícita,SI
+121,18,Consumo de sustancias,SI
+122,14,Violencia explícita,SI
+129,18,Consumo de sustancias,SI
+155,TE+7,Ninguna,NO
+238,14,Violencia explícita,NO
+240,14,Terror psicológico,SI
+278,TE,Ninguna,NO
+350,18,Violencia explícita,SI
+424,14,Consumo de sustancias,SI
+497,TE,Ninguna,NO
+550,TE,Ninguna,NO
+557,14,Terror psicológico,NO
+585,14,Lenguaje inapropiado,NO
+597,14,Violencia explícita,SI
+603,14,Consumo de sustancias,SI
+671,14,Consumo de sustancias,NO
+672,14,Violencia explícita,SI
+673,18,Violencia explícita,SI
+674,TE+7,Ninguna,NO
+675,TE,Ninguna,NO
+680,TE+7,Ninguna,NO
+767,TE,Ninguna,NO
+769,18,Terror psicológico,SI
+807,TE,Ninguna,NO
+808,TE,Ninguna,NO
+862,TE+7,Ninguna,NO
+863,14,Lenguaje inapropiado,NO
+979,TE,Ninguna,NO
+1579,18,Terror psicológico,SI
+4247,18,Violencia explícita,SI
+4248,14,Violencia explícita,SI
+4257,TE,Ninguna,NO
+4258,TE+7,Ninguna,NO
+6312,TE,Ninguna,NO
+7451,TE,Ninguna,NO
+8587,14,Consumo de sustancias,SI
+10138,TE+7,Ninguna,NO
+10193,14,Consumo de sustancias,SI
+11012,18,Consumo de sustancias,SI
+11986,TE,Ninguna,NO
+12104,18,Consumo de sustancias,SI
+12153,TE,Ninguna,NO
+13078,TE,Ninguna,NO
+14035,18,Terror psicológico,SI
+14442,14,Consumo de sustancias,NO
+14836,14,Violencia explícita,NO
+15356,TE+7,Ninguna,NO
+16869,TE+7,Ninguna,NO
+19995,14,Terror psicológico,SI
+24428,18,Violencia explícita,SI
+27205,TE+7,Ninguna,NO
+28322,14,Violencia explícita,SI
+37169,14,Terror psicológico,SI
+39254,TE,Ninguna,NO
+39688,TE+7,Ninguna,NO
+44980,18,Violencia explícita,SI
+47612,TE+7,Ninguna,NO
+47971,14,Lenguaje inapropiado,NO
+48650,TE+7,Ninguna,NO
+76600,TE,Ninguna,NO
+77338,TE,Ninguna,NO
+77429,TE,Ninguna,NO
+83533,14,Terror psicológico,NO
+99861,TE,Ninguna,NO
+106646,TE,Ninguna,NO
+137051,14,Consumo de sustancias,NO
+140638,TE,Ninguna,NO
+143663,TE+7,Ninguna,NO
+150540,14,Consumo de sustancias,SI
+157336,TE+7,Ninguna,NO
+177572,18,Violencia explícita,SI
+181808,14,Violencia explícita,SI
+204407,TE+7,Ninguna,NO
+209112,TE+7,Ninguna,NO
+216015,TE,Ninguna,NO
+222517,18,Lenguaje inapropiado,SI
+226674,18,Violencia explícita,SI
+235271,TE,Ninguna,NO
+246403,TE,Ninguna,NO
+249397,TE+7,Ninguna,NO
+264980,18,Consumo de sustancias,SI
+269149,TE,Ninguna,NO
+269955,TE,Ninguna,NO
+270473,TE+7,Ninguna,NO
+299534,14,Lenguaje inapropiado,SI
+299536,TE+7,Ninguna,NO
+301528,14,Lenguaje inapropiado,NO
+315635,TE+7,Ninguna,NO
+335984,TE,Ninguna,NO
+337167,TE,Ninguna,NO
+361743,TE,Ninguna,NO
+372058,18,Violencia explícita,SI
+396535,18,Violencia explícita,SI
+414906,TE+7,Ninguna,NO
+424711,18,Consumo de sustancias,SI
+425274,TE,Ninguna,NO
+429617,18,Terror psicológico,SI
+432123,14,Violencia explícita,NO
+438631,TE,Ninguna,NO
+441168,TE+7,Ninguna,NO
+454639,14,Consumo de sustancias,NO
+460465,18,Lenguaje inapropiado,SI
+496243,TE,Ninguna,NO
+502356,TE+7,Ninguna,NO
+519182,14,Consumo de sustancias,NO
+533535,18,Consumo de sustancias,SI
+537915,TE+7,Ninguna,NO
+569094,14,Consumo de sustancias,NO
+575265,TE,Ninguna,NO
+614945,TE+7,Ninguna,NO
+617126,TE,Ninguna,NO
+634649,14,Violencia explícita,NO
+687163,14,Lenguaje inapropiado,NO
+687259,TE,Ninguna,NO
+693134,14,Consumo de sustancias,SI
+744275,TE+7,Ninguna,NO
+755898,TE+7,Ninguna,NO
+803796,TE,Ninguna,NO
+829557,14,Lenguaje inapropiado,SI
+840464,14,Terror psicológico,SI
+847742,14,Lenguaje inapropiado,SI
+872585,TE,Ninguna,NO
+875828,TE,Ninguna,NO
+879945,18,Violencia explícita,SI
+911430,TE,Ninguna,NO
+912378,18,Terror psicológico,SI
+931285,18,Lenguaje inapropiado,SI
+933260,14,Violencia explícita,SI
+936075,TE+7,Ninguna,NO
+939243,14,Lenguaje inapropiado,SI
+949536,14,Lenguaje inapropiado,SI
+950387,14,Violencia explícita,NO
+969681,TE+7,Ninguna,NO
+976912,TE,Ninguna,NO
+980431,TE,Ninguna,NO
+980477,TE+7,Ninguna,NO
+1002398,14,Consumo de sustancias,NO
+1007757,14,Terror psicológico,SI
+1010581,TE+7,Ninguna,NO
+1011985,18,Lenguaje inapropiado,SI
+1022789,14,Terror psicológico,NO
+1038392,TE,Ninguna,NO
+1057265,TE+7,Ninguna,NO
+1061474,18,Lenguaje inapropiado,SI
+1081003,18,Consumo de sustancias,SI
+1083381,TE+7,Ninguna,NO
+1083884,TE+7,Ninguna,NO
+1084242,TE+7,Ninguna,NO
+1084244,14,Lenguaje inapropiado,NO
+1084577,18,Violencia explícita,SI
+1087192,TE+7,Ninguna,NO
+1092936,18,Lenguaje inapropiado,SI
+1103473,TE+7,Ninguna,NO
+1110034,18,Terror psicológico,SI
+1116201,TE,Ninguna,NO
+1117898,TE+7,Ninguna,NO
+1122573,TE+7,Ninguna,NO
+1127384,18,Violencia explícita,SI
+1127656,TE+7,Ninguna,NO
+1129104,TE,Ninguna,NO
+1135873,TE,Ninguna,NO
+1146058,TE+7,Ninguna,NO
+1156593,TE+7,Ninguna,NO
+1156594,14,Violencia explícita,SI
+1157008,TE+7,Ninguna,NO
+1159559,TE+7,Ninguna,NO
+1168190,18,Consumo de sustancias,SI
+1171145,18,Violencia explícita,SI
+1184918,18,Consumo de sustancias,SI
+1196067,14,Terror psicológico,NO
+1197306,TE,Ninguna,NO
+1198994,TE,Ninguna,NO
+1207162,18,Consumo de sustancias,SI
+1210938,14,Lenguaje inapropiado,NO
+1213898,TE+7,Ninguna,NO
+1218925,TE,Ninguna,NO
+1219739,TE+7,Ninguna,NO
+1220522,TE+7,Ninguna,NO
+1226293,TE,Ninguna,NO
+1226863,TE,Ninguna,NO
+1227241,14,Consumo de sustancias,NO
+1228710,TE+7,Ninguna,NO
+1233413,TE,Ninguna,NO
+1234821,TE,Ninguna,NO
+1239134,TE+7,Ninguna,NO
+1241752,14,Violencia explícita,NO
+1241982,TE,Ninguna,NO
+1242898,TE,Ninguna,NO
+1245398,18,Terror psicológico,SI
+1246049,18,Lenguaje inapropiado,SI
+1265609,TE+7,Ninguna,NO
+1266127,14,Terror psicológico,SI
+1266990,14,Consumo de sustancias,SI
+1272837,TE+7,Ninguna,NO
+1273221,14,Lenguaje inapropiado,NO
+1274706,14,Consumo de sustancias,SI
+1275779,18,Lenguaje inapropiado,SI
+1280738,18,Consumo de sustancias,SI
+1285366,TE+7,Ninguna,NO
+1287454,TE,Ninguna,NO
+1288341,14,Consumo de sustancias,SI
+1290821,TE+7,Ninguna,NO
+1291608,18,Terror psicológico,SI
+1292415,TE+7,Ninguna,NO
+1292695,14,Consumo de sustancias,NO
+1293550,TE,Ninguna,NO
+1294203,TE,Ninguna,NO
+1297842,TE,Ninguna,NO
+1301421,TE,Ninguna,NO
+1304313,18,Terror psicológico,SI
+1305781,14,Terror psicológico,NO
+1306368,18,Violencia explícita,SI
+1308553,14,Terror psicológico,NO
+1311031,TE+7,Ninguna,NO
+1314481,TE+7,Ninguna,NO
+1315772,18,Violencia explícita,SI
+1316092,14,Violencia explícita,NO
+1316427,TE,Ninguna,NO
+1318413,TE,Ninguna,NO
+1318447,18,Terror psicológico,SI
+1320660,TE,Ninguna,NO
+1325734,TE+7,Ninguna,NO
+1327819,14,Lenguaje inapropiado,SI
+1330021,TE,Ninguna,NO
+1339713,TE,Ninguna,NO
+1351908,TE,Ninguna,NO
+1358005,14,Consumo de sustancias,SI
+1363387,18,Terror psicológico,SI
+1364953,TE,Ninguna,NO
+1367220,TE+7,Ninguna,NO
+1368166,18,Consumo de sustancias,SI
+1368337,TE+7,Ninguna,NO
+1375646,TE+7,Ninguna,NO
+1380126,TE,Ninguna,NO
+1380291,14,Terror psicológico,SI
+1392469,14,Violencia explícita,SI
+1411773,18,Lenguaje inapropiado,SI
+1414413,18,Violencia explícita,SI
+1419406,18,Consumo de sustancias,SI
+1428990,18,Terror psicológico,SI
+1430077,14,Lenguaje inapropiado,NO
+1431068,18,Terror psicológico,SI
+1433117,TE+7,Ninguna,NO
+1438392,14,Violencia explícita,SI
+1439930,TE,Ninguna,NO
+1451344,TE+7,Ninguna,NO
+1462591,14,Terror psicológico,NO
+1463681,TE+7,Ninguna,NO
+1470130,TE+7,Ninguna,NO
+1472951,14,Lenguaje inapropiado,SI
+1473332,TE,Ninguna,NO
+1475803,TE+7,Ninguna,NO
+1480259,14,Consumo de sustancias,SI
+1480387,18,Consumo de sustancias,SI
+1486860,TE+7,Ninguna,NO
+1501018,14,Violencia explícita,SI
+1507097,TE+7,Ninguna,NO
+1510767,TE,Ninguna,NO
+1515729,TE,Ninguna,NO
+1522126,14,Lenguaje inapropiado,NO
+1523145,18,Violencia explícita,SI
+1536233,TE+7,Ninguna,NO
+1539104,TE+7,Ninguna,NO
+1556616,TE,Ninguna,NO
+1558796,TE+7,Ninguna,NO
+1560681,18,Lenguaje inapropiado,SI
+1582770,18,Terror psicológico,SI
+1584215,TE+7,Ninguna,NO
+1597280,18,Lenguaje inapropiado,SI
+1598785,TE,Ninguna,NO
+1599189,TE+7,Ninguna,NO
+1604143,14,Violencia explícita,SI
+1613798,TE+7,Ninguna,NO
+1628448,14,Lenguaje inapropiado,NO
+1630077,14,Violencia explícita,SI
+1630423,TE,Ninguna,NO
+1632181,14,Terror psicológico,NO
+1641319,14,Consumo de sustancias,SI
+1646787,TE,Ninguna,NO
+1658216,TE,Ninguna,NO
+1669051,14,Lenguaje inapropiado,SI
+1671548,18,Consumo de sustancias,SI
+1688935,14,Lenguaje inapropiado,NO
+1690070,18,Consumo de sustancias,SI
+1694978,TE,Ninguna,NO
+1699155,18,Consumo de sustancias,SI
+1699574,14,Consumo de sustancias,NO
+1699820,14,Violencia explícita,NO
