@@ -45,3 +45,9 @@ Como todos los archivos tienen que compartir un ID para poder hacer los cruces, 
 Se logro llenar la base de datos con 407 registros de peliculas con ids que se pueden encontrar en la API, la vista del tablero en este momento es esta:
 
 ![alt text](tablero-01.png)
+
+### SEGUNDA ACTUALIZACIÓN
+
+En base a los IDs presentes en la base de datos con datos sucios, se logró automatizar la creación del archivo CSV con las restricciones de edad, y se creo un script que devuelve un Dataframe con la información faltante desde la API que estamos usuando, el tableto en este momento se ve así:
+
+![alt text](tablero-02.png)
