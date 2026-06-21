@@ -1,0 +1,39 @@
+INSTRUCCIONES PARA EJECUTAR EL SCRIPT
+====================================
+
+1) Archivo que debes ejecutar
+   Ejecuta este archivo desde la raíz del proyecto:
+   etl/creacion-data-DB/insert-staging.py
+
+2) Archivo que debes revisar antes de ejecutar
+   Asegúrate de que exista este archivo en la raíz del proyecto:
+   .env
+
+   En ese archivo debe estar la variable:
+   API_KEY=...
+
+3) Librerías que debes instalar
+   Ejecuta:
+   pip install pandas requests python-dotenv sqlalchemy pymysql
+
+4) Comando para ejecutar el script
+   Desde la raíz del proyecto, corre:
+   python etl/creacion-data-DB/insert-staging.py
+
+   Si tu sistema no reconoce python, usa:
+   py etl/creacion-data-DB/insert-staging.py
+
+5) Archivo que debe generarse
+   Al finalizar, el script debe crear:
+   etl/creacion-data-DB/stg_catalogo_interno_sucio.csv
+
+6) Si algo falla
+   Revisa primero:
+   - .env
+   - etl/creacion-data-DB/insert-staging.py
+
+   Verifica que:
+   - API_KEY esté correcta,
+   - el archivo .env esté en la raíz del proyecto,
+   - tengas internet,
+   - las librerías estén instaladas.
