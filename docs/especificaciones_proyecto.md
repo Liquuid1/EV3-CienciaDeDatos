@@ -37,8 +37,31 @@ Para dar cumplimiento a los requisitos de heterogeneidad de fuentes, el proyecto
     * `fecha_actualizacion` (Actualización del registro).
 
 ## 4. Regla de Negocio Principal (Gatillo del ETL)
-Durante la etapa de **Transformación**, el script de Python evaluará la correlación entre la popularidad global (API) y el rendimiento interno (BBDD), contrastado con las restricciones del CSV. 
-* *Ejemplo de Regla:* Si una película es altamente popular en la API (>80 pts) pero tiene bajas reproducciones internas, y su clasificación en el CSV es "18+", el ETL escribirá automáticamente en `alerta_accion`: *"Alerta: Mover a banner principal nocturno"*. Si infringe alguna norma, marcará *"Bloquear de portada infantil"*.
+Durante la etapa de **Transformación**, el script de Python evaluará la relación entre la popularidad global obtenida desde la API de TMDB, las reproducciones mensuales registradas en la base de datos interna y las restricciones locales contenidas en el archivo CSV. ### Criterios de evaluación Para esta evaluación se considerarán los siguientes criterios: 
+
+- **Popularidad alta:** valor mayor o igual a **80 puntos**. 
+- **Reproducciones bajas:** menos de **3.000 reproducciones mensuales**. 
+- **Reproducciones altas:** **7.000 reproducciones mensuales o más**. 
+- **Valoración baja:** promedio de votos inferior a **5,0 puntos**. 
+
+### Generación de `alerta_accion` El campo `alerta_accion` se generará automáticamente según el siguiente orden de prioridad: 
+
+1. **Reproducciones no disponibles:** Si la película no posee un dato válido de reproducciones mensuales, se asignará: 
+*"Revisar dato de reproducciones"*. 
+2. **Alta popularidad, bajo rendimiento interno y restricción infantil:** Si la película tiene una popularidad mayor o igual a **80 puntos**, menos de **3.000 reproducciones mensuales** y posee bloqueo infantil, se asignará: 
+*"Mover a banner principal nocturno y bloquear de portada infantil"*. 
+3. **Contenido restringido para audiencia infantil:** Si la película posee bloqueo infantil, se asignará: 
+*"Bloquear de portada infantil"*. 
+4. **Alta popularidad y bajo rendimiento interno:** Si la película tiene una popularidad mayor o igual a **80 puntos**, menos de **3.000 reproducciones mensuales** y no posee bloqueo infantil, se asignará: 
+*"Potenciar en portada principal"*. 
+5. **Alta popularidad y alto rendimiento interno:** Si la película tiene una popularidad mayor o igual a **80 puntos** y posee **7.000 reproducciones mensuales o más**, se asignará: 
+*"Mantener contenido destacado"*. 
+6. **Valoración baja de los usuarios:** Si el promedio de votos de la película es inferior a **5,0 puntos**, se asignará: 
+*"Revisar calidad antes de promocionar"*. 
+7. **Sin condición especial:** Si la película no cumple ninguna de las condiciones anteriores, se asignará: 
+*"Monitorear sin acción inmediata"*. 
+
+Cada película recibirá una sola alerta, aplicándose siempre la regla de mayor prioridad.
 
 ## 5. Stack de Herramientas Tecnológicas
 * **Lenguaje de Programación:** Python 3.x
