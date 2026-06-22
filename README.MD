@@ -1,6 +1,6 @@
 # 🎬 Streaming EV3 - Panel de Analítica e Integración de Datos
 
-Este repositorio contiene la solución empaquetada para el proyecto final de **Programación para la Ciencia de Datos**. El sistema implementa un flujo automatizado de extremo a extremo (End-to-End Pipeline) que extrae, procesa y unifica datos heterogéneos de una plataforma de streaming nacional, enriqueciéndolos con metadatos globales mediante una API REST y cruzándolos con reglas de negocio locales a través de un archivo plano. El resultado final se despliega en un dashboard analítico interactivo multi-audiencia.
+Este repositorio contiene la solución empaquetada para el proyecto final de **Programación para la Ciencia de Datos**. El sistema implementa un flujo automatizado de extremo a extremo (End-to-End Pipeline) que extrae, procesa y unifica datos heterogéneos de una plataforma de streaming nacional, enriqueciéndolos con metadatos globales mediante una API REST y cruzándolos con reglas de negocio locales a través de un archivo plano. El resultado final se despliega en un dashboard analítico interactivo multi-audiencia. 
 
 ---
 
