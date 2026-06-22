@@ -41,7 +41,7 @@ load_dotenv(BASE_DIR / ".env")
 # Control de carga a la tabla final.
 # False: ejecuta el ETL, pero no modifica la tabla final.
 # True: crea, limpia y carga dw_peliculas_analitica.
-EJECUTAR_CARGA = False
+EJECUTAR_CARGA = True
 
 # ============================================================
 # 2. VARIABLES DE CONEXIÓN
