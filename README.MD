@@ -47,7 +47,8 @@ EV3/
 ├── repo/
 │   ├── linea-tiempo.md      # Bitácora viva y control de fases del proyecto
 │   ├── tablero-00.png       # Evidencia visual Kanban - Estado inicial
-│   └── tablero-01.png       # Evidencia visual Kanban - Avances
+│   ├── tablero-01.png       # Evidencia visual Kanban - Avances
+│   └── ...
 ├── .env                     # Variables de entorno seguras (Ignorado en Git)
 ├── .gitignore               # Configuración de exclusiones de Git
 ├── README.MD                # Documentación principal del sistema
