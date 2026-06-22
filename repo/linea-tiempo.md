@@ -51,3 +51,9 @@ Se logro llenar la base de datos con 407 registros de peliculas con ids que se p
 En base a los IDs presentes en la base de datos con datos sucios, se logró automatizar la creación del archivo CSV con las restricciones de edad, y se creo un script que devuelve un Dataframe con la información faltante desde la API que estamos usuando, el tableto en este momento se ve así:
 
 ![alt text](tablero-02.png)
+
+### TERCERA ACTUALIZACIÓN
+
+Con los datos de trabajo listos se procedio con la creación y ejecución del proceso ETL, culminando con la carga de los datos en la tabla objetivo, de esta tabla se crean los dashboards de vista ejecutiva presentes, con esto solo queda unificar todo en un solo script y terminar con la documentación tecnica del proyecto:
+
+![alt text](tablero-03.png)
