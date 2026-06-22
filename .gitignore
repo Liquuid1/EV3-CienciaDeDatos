@@ -1,0 +1,39 @@
+# ==========================================
+# 🔐 SEGURIDAD Y CONFIGURACIÓN LOCAL
+# ==========================================
+.env
+.env.local
+.env.*.local
+
+# ==========================================
+# 🐍 PYTHON (Basura del intérprete y entornos)
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==========================================
+# 📊 ARCHIVOS TEMPORALES DE CIENCIA DE DATOS
+# ==========================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# ==========================================
+# 💻 SISTEMA OPERATIVO
+# ==========================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
