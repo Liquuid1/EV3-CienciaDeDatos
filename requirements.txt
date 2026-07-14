@@ -1,0 +1,8 @@
+pandas>=2.2.0
+requests>=2.32.0
+python-dotenv>=1.0.1
+SQLAlchemy>=2.0.0
+PyMySQL>=1.10.0
+dash>=2.16.0
+plotly>=5.18.0
+pytest>=8.0.0
